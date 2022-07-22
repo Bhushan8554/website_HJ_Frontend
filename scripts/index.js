@@ -1,11 +1,5 @@
 import {navbar,footer,productFun,whyhotrajFun,LearnFun,companyho} from "../components/navbar.js"
-
-
-
-
-
-
-
+ 
 document.querySelector('#navbar').innerHTML=navbar();
 document.querySelector('#learning').addEventListener("click",LearnFun);
 document.querySelector('#product').addEventListener("click",productFun);
