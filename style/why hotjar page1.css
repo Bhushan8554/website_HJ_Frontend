@@ -44,7 +44,7 @@ border-radius: 5px;
 }#videoDiv{
     display: flex;
     width: 95%;
-    margin: auto;
+    margin:100px auto;
     gap: 5%;
 }#videoDiv>div{
     width: 25%;
@@ -74,7 +74,7 @@ border-radius: 5px;
 }#mainForhover{
     text-align: center;
     width: 70%;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 #mainForhover>div{
     margin-top: 30px;
@@ -151,3 +151,111 @@ border-radius: 5px;
     width: 80%;
     margin: 20px auto;
   }
+
+
+  #divSliderFor{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 100px auto;
+    height: auto;
+    gap: 20px;
+    margin-bottom: 50px;
+    
+  }#divSliderFor>div:nth-child(1){
+    width: 30%;
+    padding: 10px;
+  }
+  #divSliderFor>div:nth-child(2){
+    width: 30%;
+  }
+  #divSliderFor>div:nth-child(2)>img{
+    width: 100%;
+  }
+  #divSliderFor>div:nth-child(3){
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 53%;
+    background-color: #ffece6;
+    padding: 20px;
+    align-self: flex-end;
+  }#divSliderFor>div:nth-child(4){
+    position: absolute;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    left: 80%;
+    margin: 10pz;
+  }
+  #divSliderFor>div:nth-child(4)>img{
+    width: 30%;
+    cursor: pointer;
+  }
+ 
+
+
+  #containerForLineDiv{
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: 100px auto;
+    gap: 10%;
+  }#containerForLineDiv>div:first-child{
+    width: 35%;
+  }#containerForLineDiv>div:first-child>img{
+    width: 100%;
+    margin-top: 50px;
+  }#containerForLineDiv>div:last-child{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+  }
+
+
+
+  #ItsForDivuse{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+  }#ItsForDivuse>div{
+    padding: 10px 20px;
+    line-height: 30px;
+  }#ItsForDivuse>div>img{
+    width: 30px;
+  }#ItsForDivuse a{
+    margin-top: 50%;
+  }
+
+
+
+
+#lastDivIsHere{
+  width: 100%;
+  margin: auto;
+}
+#lastDivIsHere>div{
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+#lastDivIsHere>div>div{
+  width: 35%;
+  cursor: pointer;
+  overflow: hidden;
+}#lastDivIsHere>div>div>img{
+  width: 100%;
+  transition: transform .2s;
+}
+#lastDivIsHere>div>div>img:hover {
+  transform: scale(1.1);
+  
+}
+#lastDivIsHere>div>div *{
+  margin: 30px;
+}
