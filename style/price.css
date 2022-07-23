@@ -189,3 +189,25 @@ justify-content: center;
     line-height: 150%;
     margin-bottom:2px;
 }
+
+marquee > img {
+  margin-left: 60px;
+}
+#div4 {
+  display: flex;
+  gap: 50px;
+}
+#div4 > div {
+  display: flex;
+  font-size: 20px;
+  color: gray;
+  margin-top: 20px;
+}
+#div4 > div > img {
+  width: 25px;
+  height: 25px;
+  margin-top: 20px;
+}
+#div4 > div:nth-child(1) {
+  margin-left: 250px;
+}
