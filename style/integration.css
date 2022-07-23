@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  body {
+    font-family: "Ambit", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: clamp(16px, 1.25vw, 18px);
+    line-height: 140%;
+    color: var(--black89);
+    --white: #FFFFFF;
+    --whiteStatic: #FFFFFF;
+    --whiteNoOpacity: #FFFFFF00;
+    --whiteBg: #FFFFFF;
+    --cobalt: #324FBE;
+    --cobaltStatic: #324FBE;
+    --cobaltDark: #283F98;
+    --cobaltDarkStatic: #283F98;
+    --cobaltDarkDarkStatic: #9CC0C6;
+    --ember: #FF3C00;
+    --ember500: #FF855F;
+    --coal: #323232;
+    --black89: rgba(0,0,0,0.89);
+    --black89Static: rgba(0,0,0,0.89);
+    --black60: rgba(0,0,0,0.6);
+    --black60Static: rgba(0,0,0,0.6);
+    --black60DarkStatic: rgba(255,255,255,0.6);
+    --black43: rgba(0,0,0,0.43);
+    --black43Static: rgba(0,0,0,0.43);
+    --white89: rgba(255,255,255,0.89);
+    --white89Static: rgba(255,255,255,0.89);
+    --midnight: #202641;
+    --midnightStatic: #202641;
+    --midnightDarkAlternate: #202641;
+    --midnight600: #4D5167;
+    --midnight600Static: #4D5167;
+    --midnight600DarkStatic: #D2D4D9;
+    --midnight400: #A6A8B3;
+    --midnight400Static: #A6A8B3;
+    --midnight200: #E9E9EC;
+    --midnight200DarkStatic: #565A6F;
+    --midnight100: #F6F6F7;
+    --grayBright: #34394D;
+    --mercury: #E4E4E4;
+    --mercuryStatic: #E4E4E4;
+    --comet: #54586B;
+    --cometLight: #F7F6FC;
+    --dusk: #FFECE6;
+    --duskAsk: #CCC2EB;
+    --duskStatic: #FFECE6;
+    --duskBg: #FFFFFF;
+    --dawn: #EBEEF9;
+    --dawnStatic: #EBEEF9;
+    --noon: #FCFAE6;
+    --noon200: #F9F5CA;
+    --noon300: #F1E77F;
+    --noonObserve: #F9F5CA;
+    --noonStatic: #FCFAE6;
+    --peach400: #E9C07C;
+    --blossom: #FFCCDD;
+    --aqua: #C3F0F7;
+    --lilac300: #E4DFF3;
+    --lilac400: #CCC2EB;
+    --lilac600: #9C89D4;
+    --saffron: #FFE05E;
+    --dataBlue300: #88BBCA;
+    --neutral200: #F1F2F6;
+    --successBackgroundGreen: #E8F4F1;
+    --successTextGreen: #14775F;
+    --successTextGreenStatic: #14775F;
+    --googleBlue: #346EF1;
+    --googleBlueDark: #2A58C1;
+    --googleWhite: #FFFFFF;
+    --twitterBlue: #1da1f2;
+    --facebookBlue: #1877f2;
+    --yellowTextBg: #f6f5c3;
+    --redTextBg: #fbd4c6;
+  }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  }
+  :root {
+    tab-size: 4;
+  }
+  html {
+    line-height: 1.15;
+  }
+  
+  .kIrusR {
+    margin-bottom: clamp(8px, 1.11111vw, 16px);
+    color: var(--black60);
+  
+     
+  
+  }
+  /* 
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    font-size: inherit;
+    line-height: 120%;
+    font-weight: 600;
+  } */
+  
+  .bUBmdG {
+    font-size: clamp(32px, 3.33333vw, 48px);
+    line-height: 120%;
+  }
+  
+  .EzVMC {
+    margin-top: clamp(16px, 1.66667vw, 24px);
+    color: var(--black60);
+  }
+  .integration{
+    height: 200px;
+    width: 400pt;
+      line-height: 20px;
+    /* border: 1px solid black; */
+     margin-top: 100px;
+     margin-left: 40px;
+  }
+  .filters{
+     height: 70px;
+     width: 95%;
+     /* border: 1px solid black; */
+     margin: auto;
+     display: flex;
+  }
+  .All{
+    height: 70px;
+    width: 50px;
+    /* border: 1px solid black; */
+     
+  }
+  .All p{
+     
+        font-size: clamp(12px, 0.972222vw, 14px);
+         
+         
+      
+  }
+  
+  .btn{
+    margin-top: 15px;
+    height: 30px;
+    width: 45px;
+    background-color: var(--midnight);
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+  
+  }
+  
+  .zar{
+    height: 70px;
+    width: 600px;
+     
+    /* border: 1px solid black; */
+  }
+  .zar button{
+    padding: 5px;
+    margin-top: 40px;
+     margin-left: 5px;
+      font-weight: 600;
+     font-size: 14px; 
+      color:  rgba(39, 38, 38, 0.89);
+     background-color: var(--midnight100);
+     border: none;
+     border-radius: 2px;
+  }
+  .zar button:hover{
+    background-color: var(--midnight200);
+    cursor: pointer;
+  }
+  
+  .search-box{
+  height: 70px;
+  width: 280px;
+  /* border: 1px solid black; */
+  margin-left: 200px;
+  }
+  .search-box p{
+  margin-top: -2px;
+  margin-bottom: clamp(8px, 1.11111vw, 16px);
+  color: gray;
+  }
+  
+  #search{
+     height: 45px;
+     width: 280px;
+     border: 1px solid var(--midnight400);
+     border-radius: 5px;
+     margin-top: -2px;
+     font-size: 15px;
+     font-weight: 500;
+  }
+  .dlLMqx {
+  font-size: clamp(24px, 2.22222vw, 32px);
+  line-height: 120%;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 180px;
+  
+  
+  }
+  
+  .eqTHDR {
+  margin-top: clamp(8px, 0.55vw, 8px);
+  color: var(--black60);
+  text-align: center;
+  }
+  
+  .first-jar{
+  display: grid;
+  grid-template-columns: repeat(3,25%);
+  grid-gap: 8%;
+   margin-top: 80px;
+   margin-left: 40px;
+   height: auto;
+   width: auto;
+  
+  }
+  
+  .jar2{
+  border: 1px solid rgb(105, 101, 101);
+  height: 210px;
+  width: 400px;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  .jar2:hover{
+     
+     border: 1px solid var(--midnight400);
+  }
+  #jar1{
+    
+    height: 120px;
+    width: 350px;
+    display: flex;
+    /* border: 1px solid black; */
+  }
+  
+  #jar1-img{
+     
+    height: 80px;
+    width: 100px;
+    border: 1px solid var(--midnight400);
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+  }
+  
+  #fixed{
+    height: 100%;
+    width: 100%;
+     
+  }
+  
+  .bwsmEM {
+  font-size: clamp(18px, 1.38889vw, 20px);
+  line-height: 120%;
+  margin-top: 10px;
+  margin-left: 14px;
+  }
+  #jar3{
+    height: 100px;
+    width: 200px;
+    
+    margin-top: 20px;
+  }
+  
+  .lhgJGY {
+  color: var(--black60);
+    margin-top: 10px;
+    margin-left: 10px;
+    
+  }
+  .ijSFMp {
+  margin-top: clamp(8px, 1.11111vw, 16px);
+  color: var(--black60);
+  margin-left: 22px;
+  margin-top: -5px;
+   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: clamp(14px, 1.11111vw, 16px);
+  line-height: 150%;
+  font-weight: 600;
+  
+  
+  }
+  
+   .first-ja{
+    
+    display: grid;
+    grid-template-columns: repeat(3,25%);
+     grid-column-gap: 8%;
+     grid-row-gap: 1%;
+     margin-top: 80px;
+     margin-left: 40px;
+     height:  3990px;
+     width: auto;
+   }
+  

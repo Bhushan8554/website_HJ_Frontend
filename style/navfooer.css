@@ -3,7 +3,7 @@ body {
   padding: 0px;
 }
 
-#footer {
+#footer {margin-top: 90px;
   width: 100%;
   height: 800px;
   background-color: #202641;
@@ -107,7 +107,7 @@ body {
   grid-template-columns: 80px 150px 20px;
   justify-content: end;
   gap: 10px;
-  font-size: 20px;
+   
 }
 #get {
   background-color: blue;
@@ -203,10 +203,10 @@ body {
   height: 25px;
   margin-top: 10px;
 }
-a {
+/* a {
   text-decoration: none;
   color: black;
-}
+} */
 
 .recoding > h4 {
   margin-top: -10px;
