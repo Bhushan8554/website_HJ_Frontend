@@ -110,24 +110,24 @@ let navbar=()=>{
           src="https://images.ctfassets.net/lh3zuq09vnm2/2tNvAdB4QZnKkk8er4q3SY/00972c63148acdd80bba5deb1e3ca20d/Product_teams_.svg"
           alt=""
         />
-        <p><a href="">For product teams</a></p>
-        <p><a class="gray" href="">collaborate on user insights</a></p>
+        <p><a href="why hotjar page1.html">For product teams</a></p>
+        <p><a class="gray" href="why hotjar page1.html">collaborate on user insights</a></p>
       </div>
       <div>
         <img
           src="https://images.ctfassets.net/lh3zuq09vnm2/rei0bZGIntzeRG0WxjqMU/458bf0957e41b9a5fb0322613df89ebf/icon-product-management.svg"
           alt=""
         />
-        <p><a href="">For product managers</a></p>
-        <p><a class="gray" href="">Build products users love</a></p>
+        <p><a href="why hotjar page2.html">For product managers</a></p>
+        <p><a class="gray" href="why hotjar page2.html">Build products users love</a></p>
       </div>
       <div>
         <img
           src="https://images.ctfassets.net/lh3zuq09vnm2/2zSp0IQk0E9iOi36cn8n4n/eb85b848d9853ec849a934feeca55f4e/icon-product-design.svg"
           alt=""
         />
-        <p><a href="">For product designers</a></p>
-        <p><a class="gray" href="">Create designs that resonate</a></p>
+        <p><a href="why hotjar page3.html">For product designers</a></p>
+        <p><a class="gray" href="why hotjar page3.html">Create designs that resonate</a></p>
       </div>
       <div>
         <img

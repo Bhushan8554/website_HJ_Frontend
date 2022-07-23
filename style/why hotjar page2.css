@@ -422,8 +422,9 @@ border-radius: 5px;
   
   #footer {
     width: 100%;
-    height: 800px;
+    height: 850px;
     background-color: #202641;
+    padding: 20px;
   }
   #footer > hr {
     width: 92%;
@@ -525,6 +526,7 @@ border-radius: 5px;
     grid-template-columns: 80px 150px 20px;
     justify-content: end;
     gap: 10px;
+    font-size: 18px;
   }
   #get {
     background-color: blue;
