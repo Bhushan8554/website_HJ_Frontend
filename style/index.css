@@ -1,0 +1,168 @@
+#cont {
+  padding: 0px 60px;
+}
+
+#div1 {
+  width: 80%;
+  font-size: 50px;
+  font-family: sans-serif;
+  margin-top: -10px;
+}
+#div2 {
+  width: 80%;
+  display: flex;
+  margin-top: -20px;
+}
+#div2 > div {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  margin-top: -20px;
+  color: gray;
+}
+#div2 > div:nth-child(1) {
+  width: 250px;
+}
+#div2 > div > img {
+  width: 25px;
+  height: 25px;
+}
+#div3 {
+  display: flex;
+}
+#div3 > div:first-child {
+  width: 50%;
+  height: 450px;
+  overflow: hidden;
+}
+#div3 > div:first-child > iframe {
+  margin-top: -70px;
+}
+#div3 > div:last-child {
+  width: 50%;
+  height: 450px;
+}
+#div3 > div:last-child > h2 {
+  margin-top: 100px;
+  margin-left: 170px;
+  margin-right: 170px;
+}
+#div3 > div:last-child > p {
+  font-size: 18px;
+  margin-left: 170px;
+  margin-right: 170px;
+}
+#q1 {
+  display: flex;
+  margin-left: 170px;
+  margin-right: 170px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#q1 > div {
+  display: flex;
+}
+#q1 > div:last-child {
+  height: 35px;
+  background-color: blue;
+  border: 1px solid blue;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+#q1 > div:last-child > img {
+  width: 35px;
+  height: 35px;
+}
+#q1 > div > button {
+  color: blue;
+  height: 35px;
+  font-family: sans-serif;
+  font-size: 18px;
+  border: 1px solid blue;
+}
+#Trusted {
+  font-size: 40px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#footer {
+  margin-top: 450px;
+}
+marquee > img {
+  margin-left: 60px;
+}
+#div4 {
+  display: flex;
+  gap: 50px;
+}
+#div4 > div {
+  display: flex;
+  font-size: 20px;
+  color: gray;
+  margin-top: 20px;
+}
+#div4 > div > img {
+  width: 25px;
+  height: 25px;
+  margin-top: 20px;
+}
+#div4 > div:nth-child(1) {
+  margin-left: 250px;
+}
+
+.gray {
+  color: gray;
+}
+#div5 {
+  text-align: center;
+  font-family: sans-serif;
+}
+#div6 {
+  display: flex;
+  gap: 20px;
+}
+#div6 > div {
+  width: 50%;
+  height: 80px;
+}
+#q3,
+#q4 {
+  background-color: #f9f5ca;
+  width: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 35px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+#q4 {
+  background-color: #ccc2eb;
+}
+#div7 {
+  width: 300px;
+  height: 450px;
+  border: 1px solid;
+  overflow: hidden;
+}
+#div7 > div {
+  height: 300px;
+  border: 1px solid red;
+
+  overflow: hidden;
+}
+#div7 > div>div:hover {
+  margin-top: -200px;
+transition: 500ms;
+}
+#div7 > div > div:first-child {
+  height: 100%;
+}
