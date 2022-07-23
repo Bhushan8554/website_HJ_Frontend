@@ -92,7 +92,7 @@
 }
 
 #footer {
-  margin-top: 450px;
+  margin-top: 80px;
 }
 marquee > img {
   margin-left: 60px;
@@ -147,22 +147,281 @@ marquee > img {
 #q4 {
   background-color: #ccc2eb;
 }
-#div7 {
-  width: 300px;
+.tuntun {
   height: 450px;
   border: 1px solid;
   overflow: hidden;
+  padding: 15px;
 }
-#div7 > div {
-  height: 300px;
-  border: 1px solid red;
+.tuntun > div {
+  height: 420px;
 
   overflow: hidden;
 }
-#div7 > div>div:hover {
-  margin-top: -200px;
-transition: 500ms;
+.tuntun > div > div:hover {
+  margin-top: -220px;
+  transition: 1000ms;
 }
-#div7 > div > div:first-child {
+.tuntun > div > div:first-child {
   height: 100%;
 }
+.tuntun p {
+  color: gray;
+  font-family: sans-serif;
+}
+.tuntun > div > div > div:first-child > img {
+  width: 100%;
+  /* height: 90%; */
+}
+.tuntun > div > div > div {
+  height: 100%;
+  font-family: sans-serif;
+}
+#div7 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+#div8 {
+  height: 450px;
+  display: flex;
+  margin-top: 80px;
+}
+#div8 > div {
+  width: 50%;
+  height: 100%;
+  font-size: 19px;
+  font-family: sans-serif;
+}
+#div8 > div:last-child {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+#div8 > div:first-child > div {
+  height: 70%;
+  background-image: url("../img/lineanime1.gif");
+  background-size: 100% 100%;
+}
+.q4 > img {
+  width: 30px;
+  height: 30px;
+  margin-top: 34px;
+}
+#div9 {
+  display: flex;
+  padding: 40px 0px;
+  width: 100%;
+  height: 330px;
+  margin-top: 80px;
+  background-image: linear-gradient(
+    to right,
+    rgb(177, 170, 224),
+    #bedbf0,
+    rgb(177, 170, 224)
+  );
+}
+#div9 > div {
+  width: 50%;
+  height: 100%;
+  padding: 0px 100px;
+  font-family: sans-serif;
+}
+#div9 > div > p {
+  color: gray;
+  line-height: 30px;
+  font-size: 17px;
+  font-weight: 500;
+}
+#q5 {
+  width: 70%;
+  height: 10%;
+  display: flex;
+  gap: 10px;
+}
+#q5 > div {
+  width: 50%;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid rgb(34, 0, 255);
+}
+#q5 > div:first-child {
+  color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#q5 > div:last-child {
+  color: white;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#q6 > div {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  padding: 0px 100px;
+  margin-top: 20px;
+}
+#div10 {
+  width: 100%;
+  height: 500px;
+  margin-top: 40px;
+  display: flex;
+}
+#div10 > div {
+  width: 50%;
+  height: 100%;
+  padding: 0px 70px;
+}
+#div10 > div:first-child > h1 {
+  margin-top: 130px;
+}
+#div10 > div:first-child p {
+  font-size: 20px;
+  color: gray;
+}
+#div10 > div:first-child > button {
+  background-color: blue;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 60px;
+}
+#div10 > div:last-child {
+  background-image: url("../img/imganime.gif");
+  background-size: 100% 100%;
+  height: 500px;
+}
+/* ! */
+#div11 {
+  width: 100%;
+  height: 500px;
+  margin-top: 160px;
+  display: flex;
+}
+#div11 > div {
+  width: 50%;
+  height: 100%;
+  padding: 0px 70px;
+}
+#div11 > div:last-child > h1 {
+  margin-top: 130px;
+}
+#div11 > div:last-child p {
+  font-size: 20px;
+  color: gray;
+}
+#div11 > div:last-child > button {
+  background-color: blue;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 60px;
+}
+#div11 > div:first-child {
+  background-image: url("../img/img2anime.gif");
+  background-size: 100% 100%;
+  height: 500px;
+}
+/* ! */
+#div12 {
+  width: 100%;
+  height: 500px;
+  margin-top: 160px;
+  display: flex;
+}
+#div12 > div {
+  width: 50%;
+  height: 100%;
+  padding: 0px 70px;
+}
+#div12 > div:first-child > h1 {
+  margin-top: 130px;
+}
+#div12 > div:first-child p {
+  font-size: 20px;
+  color: gray;
+}
+#div12 > div:first-child > button {
+  background-color: blue;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 60px;
+}
+#div12 > div:last-child {
+  background-image: url("../img/img3anime.gif");
+  background-size: 100% 100%;
+  height: 500px;
+}
+#div13 {
+  width: 100%;
+  margin: auto;
+  margin-top: 80px;
+  font-family: sans-serif;
+  text-align: center;
+}
+#div13 > button {
+  border: 1px solid blue;
+  color: blue;
+  height: 40px;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 35px;
+}
+#div14 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 60px;
+}
+#div14 > div {
+  height: 550px;
+}
+#div14 > div:first-child > button {
+  border: 1px solid blue;
+  color: blue;
+  height: 40px;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 55px;
+}
+#div15 {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  margin-top: 105px;
+  background-image: linear-gradient(
+    to right,
+    #fcfae6,
+    #ffe174,
+    #fed5d6,
+    #ffe174,
+    #fcfae6
+  );
+}
+#div15 > div {
+  width: 50%;
+  height: 100%;
+ padding: 0px 120px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#div15 > div:first-child > h1 {
+  margin-top: 120px;
+}
+#div15 > div:last-child > img {
+  width: 80%;
+  height: 80%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+ 
