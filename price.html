@@ -10,9 +10,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="style/price.css">
+    <link rel="stylesheet" href="./style/navfooer.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
 
 </head>
 <body>
+  <div id="navbar"></div>
     <section>
         <div id="obsreve1">
             <h1 id="headline">Get started with Hotjar, <span id="red">for free</span></h1>
@@ -106,8 +112,8 @@
                     <span id="obserev">Observe</span> & <span id="ask">Ask</span>
                     </h1>
                     <div id="btn-two">
-                      <button>Pay yearly</button>
-                      <button>Pay Monthly</button>
+                      <button id="btn1" class="boxs">Pay yearly</button>
+                      <button id="btn2">Pay Monthly</button>
                     </div>
             </div>
             <div>
@@ -115,7 +121,7 @@
                    <span id="toptext">Package:</span>
                    <p><span id="dark">Observe</span>(Business) <span id="dark">+ Ask</span> (Business)</p>
                    <p class="colorBlue" style="margin-bottom: -10px;">&#10004; 20% package discount applied</p>
-                   <p class="colorBlue">&#10004; 20% yearly discount applied</p>
+                   <p class="colorBlue" id="changeC">&#10004; 20% yearly discount applied</p>
                    <div id="priceBG"><span id="f1">$178</span> <span id="f2">$113</span><span id="f3">/ mo</span></div>
                    <div id="cardsBtn">
                     <button id="cardbtn1">Book a call</button>
@@ -703,45 +709,7 @@
             </div>
           </div>
         </section>
-        <style>
-          #hovContainer{
-            width: 86%;
-            display: flex;
-            flex-wrap: wrap;
-           background: linear-gradient(45deg,#ffece6,#e1ab9a);
-           margin: auto;
-           padding: clamp(24px, 2.77778vw, 40px) 0px;
-           justify-content: space-evenly;
-           margin-top: 20px;
-          }
-          #btn-find{
-            cursor: pointer;
-    outline: none;
-    border: 1px solid blue;
-    color: blue;
-    text-align: center;
-    background-color: #ffffff00;
-    font-size: 16px;
-    line-height: 100%;
-    font-weight: 500;
-    transition: all 0.05s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
-    min-height: 40px;
-    padding: 0px clamp(8px, 1.11111vw, 16px);
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    border-radius: 4px;
-    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    margin-right: clamp(8px, 0.55vw, 8px);
-          }
-          #hovContainer>div>img{
-            width: 100%;
-    height: 300px;
-          }
-          #hovContainer>div>h2{
-            font-size:clamp(28px, 2.77778vw, 40px)
-          }
-        </style>
+        
         <section id="hovContainer">
           <div>
             <h2>Want to Become hotjar partner</h2>
@@ -751,7 +719,9 @@
           <div><img src="https://www.hotjar.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Flh3zuq09vnm2%2F2wdWozE9QnLjqjRIPN7uT2%2F6198776d0600926bf0ac1b33260cb340%2FYour_introduction_to_Hotjar__what_it_is__what_it_can_do_for_you__and_how_it_works.jpg&w=1920&q=75" alt=""></div>
         </section>
     </section>
+    <div id="footer"></div>
 </body>
 </html>
 
 <script src="scripts/price.js"></script>
+<script src="./scripts/index.js" type="module"></script>

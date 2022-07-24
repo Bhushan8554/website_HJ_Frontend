@@ -9,7 +9,7 @@ let navbar=()=>{
         </div>
         <div id="product">Product</div>
         <div id="whyhotraj">Why Hotraj</div>
-        <div id="pricing"><a href="">Pricing</a></div>
+        <div id="pricing"><a href="price.html">Pricing</a></div>
         <div id="learning">Learning</div>
         <div id="company">Company</div>
       </div>
@@ -160,7 +160,7 @@ let navbar=()=>{
           src="https://images.ctfassets.net/lh3zuq09vnm2/6E1bW5je6USepU41R2psoP/025fc489632d42f5455f7253653477a9/Blog.svg"
           alt=""
         />
-        <p><a href="">Blog</a></p>
+        <p><a href="learn_blog.html">Blog</a></p>
         <p><a class="gray" href="">News, analysis, tips, and tutorials</a></p>
       </div>
       <div>
@@ -168,7 +168,7 @@ let navbar=()=>{
           src="https://images.ctfassets.net/lh3zuq09vnm2/69OiEBqKuuE9y84cHDYFYD/8fb8702f45048de7342abacc186e7f78/Product-forge.svg"
           alt=""
         />
-        <p><a href="">Product forge</a></p>
+        <p><a href="product_forge.html">Product forge</a></p>
         <p><a class="gray" href="">Cutting-edge product insights</a></p>
       </div>
       <div>
@@ -192,7 +192,7 @@ let navbar=()=>{
           src="https://images.ctfassets.net/lh3zuq09vnm2/01sD7ikwsm8A9PzqXxeovt/d718ae8df27d248c66166bddf71aac42/Vector.svg"
           alt=""
         />
-        <p><a href="">Hotjar learning </a></p>
+        <p><a href="learning.html">Hotjar learning </a></p>
         <p><a class="gray" href="">Courses to help you flourishLearn</a></p>
       </div>
     </div>
