@@ -44,7 +44,7 @@ let navbar=()=>{
             src="https://images.ctfassets.net/lh3zuq09vnm2/3fvft31gR35Q9BjAxVk4Zw/9f93e529be4989f97d5743844699cf2a/icon-heatmaps.svg"
             alt=""
           />
-          <h3><a href="">Heatmaps</a></h3>
+          <h3><a href="./product.html">Heatmaps</a></h3>
           <h4><a class="gray" href="">Visualize user brhaviour</a></h4>
         </div>
 
@@ -69,7 +69,7 @@ let navbar=()=>{
             src="https://images.ctfassets.net/lh3zuq09vnm2/6hX51iaEPtQHWldsN5Fy3Y/3a66ea3c6ba95bad60f90d9c31113980/icon-incoming-feedback.svg"
             alt=""
           />
-          <h3><a href="">Feeadback</a></h3>
+          <h3><a href="./feedback.html">Feedback</a></h3>
           <h4><a class="gray" href="">Discover how your user feel</a></h4>
         </div>
 
@@ -90,7 +90,7 @@ let navbar=()=>{
             src="https://images.ctfassets.net/lh3zuq09vnm2/2OXb4DK3kqPZI9XZwKDmBR/aa08742d712d15824a5605c8fa8a86b2/icon-integrations.svg"
             alt=""
           />
-          <h3><a href="">Intigrations</a></h3>
+          <h3><a href="./integration.html">Intigrations</a></h3>
           <h4><a class="gray" href="">Discover dorzen of intigration</a></h4>
         </div>
 
