@@ -87,6 +87,10 @@ body {
   cursor:pointer;
 
 }
+#left>div>a{
+  text-decoration: none;
+  color: black;
+}
 #left > div:first-child {
   display: flex;
 }

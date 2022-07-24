@@ -224,20 +224,23 @@ background-color: #f1f2f6;
 color:black;
 width: 35%;
 }
-#btn-two>button:first-child
+#btn1
 {
   padding: clamp(8px, 0.55vw, 8px) clamp(8px, 1.11111vw, 16px);
 font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 font-size: clamp(14px, 1.11111vw, 16px);
 line-height: 150%;
 color:black;
-background-color: white;
-font-weight: 500;
-border-radius: 6px;
-box-shadow: rgb(26 30 52 / 10%) 0px 1px 3px, rgb(26 30 52 / 6%) 0px 1px 2px;
+
 border: none;
 }
-#btn-two>button:last-child{
+.boxs{
+  background-color: white;
+  font-weight: 500;
+  border-radius: 6px;
+  box-shadow: rgb(26 30 52 / 10%) 0px 1px 3px, rgb(26 30 52 / 6%) 0px 1px 2px;
+}
+#btn2{
   color: black;
 padding: clamp(8px, 0.55vw, 8px) clamp(8px, 1.11111vw, 16px);
 border-radius: 4px;
@@ -472,3 +475,41 @@ width: 86%;
 margin-top: -22px;
 margin-bottom: -1px;
 } */
+
+#hovContainer{
+  width: 86%;
+  display: flex;
+  flex-wrap: wrap;
+ background: linear-gradient(45deg,#ffece6,#e1ab9a);
+ margin: auto;
+ padding: clamp(24px, 2.77778vw, 40px) 0px;
+ justify-content: space-evenly;
+ margin-top: 20px;
+}
+#btn-find{
+  cursor: pointer;
+outline: none;
+border: 1px solid blue;
+color: blue;
+text-align: center;
+background-color: #ffffff00;
+font-size: 16px;
+line-height: 100%;
+font-weight: 500;
+transition: all 0.05s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
+min-height: 40px;
+padding: 0px clamp(8px, 1.11111vw, 16px);
+display: flex;
+-webkit-box-align: center;
+align-items: center;
+border-radius: 4px;
+font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+margin-right: clamp(8px, 0.55vw, 8px);
+}
+#hovContainer>div>img{
+  width: 100%;
+height: 300px;
+}
+#hovContainer>div>h2{
+  font-size:clamp(28px, 2.77778vw, 40px)
+}
