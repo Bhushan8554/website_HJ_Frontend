@@ -8,11 +8,12 @@ Me and along with my team clone this website in 5 Days.
     HTML 5, CSS, JavaScript and LocalStorage
     
   ## Team Members :-
-  - Shagun Sharma
-  - Sameer Bhavar
-  - Bhushan Taru
-  - Sheetal Suman
-  - Suraj Pawar
+   
+   - Sameer Bhavar(Team Lead)
+   - Shagun Sharma
+   - Bhushan Taru
+   - Sheetal Suman
+   - Suraj Pawar
  
   
   ## Clone Snaps :-
