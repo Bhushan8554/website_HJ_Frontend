@@ -22,7 +22,7 @@ Me and along with my team clone this website in 5 Days.
 
 
   # Deployed Link :-
-    [https://frolicking-brioche-f611e8.netlify.app/](https://website-hj-frontend.vercel.app/)https://website-hj-frontend.vercel.app/
+    https://website-hj-frontend.vercel.app/
     
   
 
